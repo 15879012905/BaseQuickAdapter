@@ -1,3 +1,13 @@
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+dependencies {
+	        implementation 'com.github.LingTT:GeLianBaseQuickAdapter:Tag'
+	}
 # BaseQuickAdapter
 ---
 简单封装了下RecyclerViewAdapter，避免每次都要写一堆重复代码
