@@ -106,6 +106,7 @@ public abstract class BaseQuickAdapter<T> extends RecyclerView.Adapter<BaseViewH
 
     //将获取到的数据集合加到之前的集合中来
     public void appendList(List<T> beanList) {
+        //要么相等要么等于零
         if (beanList.size() == pageCount) {
             currentState = STATE_LOADING;
             isHasMore = true;

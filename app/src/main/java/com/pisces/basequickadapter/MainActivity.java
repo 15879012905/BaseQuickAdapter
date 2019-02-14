@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements Callback<MovieEnt
     RecyclerView rcv;
     List<MovieEntity.SubjectsBean> mBeanList;
     static int CURRENT_PAGE = 0;//起始页第一页
-    static final int PAGE_COUNT = 50;//每页有50条数据
+    static final int PAGE_COUNT = 5;//每页有50条数据
 
     MovieQuickAdapter mQuickAdapter;
     LinearLayoutManager mLinearLayoutManager;
